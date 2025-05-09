@@ -1,0 +1,15 @@
+{
+  "extends": "@mavericks/typescript-config/react-library.json",
+  "compilerOptions": {
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "@/ui/*": ["./src/*"],
+
+      "@/types/*": ["../../packages/types/src/*"]
+    }
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}

@@ -1,0 +1,105 @@
+{
+  "get-started-with-talus": "Get started with {{companyName}} today.",
+
+  "lets-get-started-title": "Let's get started!",
+  "lets-get-started-subtitle": "Fill out the details below",
+
+  "verify-phone-help": "We’ll text this number to verify your account.",
+  "verify-phone-rates-help": "Message and data rates may apply",
+
+  "verify-otp-title": "Verify your phone number",
+  "verify-otp-subtitle": "We just sent you a 4-digit verification code, please type it below",
+
+  "resend-code": "Resend code",
+
+  "tell-us-about-your-business-title": "Tell us about your business",
+  "tell-us-about-your-business-subtitle": "We need this information to verify your business identity and meet regulatory requirements",
+
+  "verify-that-you-represent-title": "Verify that you are the authorized representative and signatory for this business",
+  "verify-that-you-represent-subtitle": "It must be filled by someone with significant control and management of your business.",
+
+  "verify-that-you-represent-subtitle-1": "The information must be provided by someone who either owns or controls the business and who has the authority to execute the Merchant Agreement and",
+  "verify-that-you-represent-subtitle-2": "By submitting this information, you confirm that you have the authority to sign and act on behalf of the business.",
+
+  "business-owners-title": "Business Owners",
+  "business-owners-subtitle": "We need to know about and have the consent from the owners of at least a majority of the business.",
+
+  "add-another-owner-title": "Add other owners to represent at least a majority.",
+  "add-another-owner-subtitle": "It must be filled by someone with significant control and management of your business.",
+
+  "what-do-you-sell-title": "What do you sell?",
+  "what-do-you-sell-subtitle": "Help Us Understand the Products and Services You Provide to Your Customers",
+
+  "current-sales-title": "Current sales",
+  "current-sales-subtitle": "We need to know how you are currently selling today (If you don’t already sell today, try to estimate the numbers)",
+
+  "add-bank-account-title": "Add the business’s bank account for payouts",
+  "add-bank-account-subtitle": "This account must have the same name as the business. By adding this bank account to your Talus Account and clicking below, you authorize Talus to credit and debit your bank as described in ",
+  "add-bank-account-subtitle-terms": "these terms",
+
+  "review-your-details-title": "Let’s review.",
+  "review-your-details-subtitle": "Take a moment to review and confirm your information.",
+  "review-your-details-terms": "By clicking agree, you certify that the information provided is complete and correct",
+
+  "business-details-title": "BUSINESS DETAILS",
+  "management-and-ownership-title": "MANAGEMENT, OWNERSHIP AND PERSONAL GUARANTOR",
+  "bank-account-information-title": "BANK ACCOUNT INFORMATION",
+
+  "choose-hardware-title": "Choose the right hardware for you",
+  "choose-hardware-subtitle": "Select the hardware that fits your business needs",
+
+  "choose-pricing-plan-title": "Choose the right pricing plan",
+  "choose-pricing-plan-subtitle": "Take a moment to review your information and accept the application terms.",
+
+  "review-payment-and-fees-title": "Review and accept fees and other charges.",
+  "review-payment-and-fees-subtitle": "Includes monthly payment and processing fees as well as hardware costs.",
+  "incidental-fees-warning": "Review additional and incidental fees (like Chargeback fees and ACH rejects) in the",
+  "incidental-fees-warning-2": ", which forms the Merchant Agreement.",
+
+  "agree-terms-and-conditions-click-label": "By clicking “continue” I agree to the terms & conditions mentioned above",
+
+  "sign-merchant-application-title": "Sign and agree to account terms",
+  "sign-merchant-application-subtitle": "Take a moment to review your information and agree to the merchant application and agreement, personal guarantee and",
+
+  "i-reviewed-merchant-agreement": "I reviewed the merchant application and agreement above",
+  "i-agree-company-terms": "I agree to {{companyName}}’s",
+  "i-reviewed-merchant-application-pages": "I have received and carefully reviewed all pages of the Merchant Application and Agreement and the Terms and Conditions, which form an integral part of the Merchant Application and Agreement.  I understand that by selecting “I Agree” and by electronically signing in the space provided below, my electronic signature will have the same force and effect as my manual signature. Under the Electronic Signatures in Global and National Commerce Act (ESign), the Merchant Application and Agreement and the Terms and Conditions will be legally binding upon me and my company in the same manner as are hardcopy documents executed by hand signature as: (1) I agree that my electronic signature will be associated with the Merchant Application and Agreement and the Terms and Conditions, (2) I consent and intend to be bound by the terms and conditions of the Merchant Application and Agreement and the Terms and Conditions, and (3) the Merchant Application and Agreement and the Terms and Conditions are being delivered to me in an electronic record capable of retention  at the time of receipt and I have the ability to print or otherwise electronically store each of these documents.  In the event my business is a separate business organization, I certify that I am authorized to and will be signing on its behalf and on behalf of myself as a personal guarantor.   I acknowledge that this Merchant Processing Application and Agreement will not be effective until approved and accepted by Processor and Bank.",
+  "do-not-agree-until-pages-reviewed": "Do not select 'I Agree' above unless and until you have reviewed all pages of this Merchant Application and Agreement and the Terms and Conditions.",
+
+  "you-are-all-set-title": "You are all set!",
+  "you-are-all-set-message-plural": "We sent the merchant application for signature to all authorized signers. Once they sign the merchant application we will be able to quickly review it and hopefully approve it immediately.",
+  "you-are-all-set-message-singular": "We will review your merchant application and be able to quickly review it and hopefully approve it immediately.",
+  "you-are-all-set-further-information": "If we need any further information we will contact you.",
+
+  "your-account-is-approved-title": "You account is approved for payments!",
+  "your-account-is-approved-message": "Let’s choose the right payment hardware / software for your business.",
+  "choose-payment-solution-label": "Choose a payment solution",
+
+  "omnibus-electronic-consent": "Omnibus Electronic Consent",
+
+  "omnibus-electronic-consent-paragraph-1": "By clicking \"I Agree\", you confirm that you have carefully reviewed and consent to the use of electronic signatures, electronic records, and electronic communications in connection with the review and execution of the",
+
+  "omnibus-electronic-consent-paragraph-2": "You confirm that you have reviewed and accepted all prior screens and provided accurate information where requested. Your electronic signature is legally binding and holds the same validity as a handwritten signature.",
+  "omnibus-electronic-consent-paragraph-3": "You further acknowledge that you have access to and the ability to review, retain, electronic copies of all agreements for your records. A copy of the signed agreements will be sent to you for your records.",
+
+  "sign-agreement-note": "Note: After signing, it'll take a few seconds to process before you can continue.",
+
+  "click-to-sign-paragraph-1": "By clicking \"I Agree,\" you confirm on behalf of yourself and the Merchant that you understand and agree to the following: that all information you provided in the",
+  "click-to-sign-paragraph-2": "is accurate,  that you have carefully reviewed the",
+  "click-to-sign-paragraph-3": ", which, together, form the Merchant Agreement, the",
+  "click-to-sign-paragraph-4": "and agree to their terms; that you are authorized to sign and submit the Merchant Agreement and ACH Terms on Merchant's behalf and are also signing in your individual capacity as unconditional, continuing personal guarantor of the Merchant's payment and performance of all obligations under the Merchant Agreement; that you have carefully reviewed and consent to the use of electronic signatures, electronic records, and electronic communications",
+  "click-to-sign-paragraph-5": "in connection with the review and execution of the Merchant Agreement, Personal Guaranty and ACH Terms;  that your electronic signature is legally binding and holds the same validity as a handwritten signature, that you have access to and the ability to review and retain electronic copies of all agreements for your records. A copy of the signed the Merchant Application and Terms and Conditions, which, together, form the Merchant Agreement and which includes the Personal Guaranty and agreement to the ACH Terms, will be sent to you for your records.",
+  "click-to-sign-paragraph-6": "The Merchant Agreement shall not take effect until your Merchant Application is approved and accepted by Talus/Bank, either by its signature or upon processing the first transaction for the Merchant's account, whichever comes first.",
+
+  "i-accept-and-agree": "I ACCEPT AND AGREE",
+
+  "here-is-what-happens-next": "Here is what happens next",
+
+  "all-set-step-1": "You will receive an email from Talus with a copy of your signed Merchant Agreement.",
+  "all-set-step-2": "Talus will review your Merchant Application.",
+  "all-set-step-3": "Once approved you should receive an email with next steps to start taking payments!",
+
+  "all-set-message-1": "If you don’t receive an email within a few moments, please check your spam folder or contact Talus at",
+  "all-set-message-2": "or",
+  "all-set-message-3": "for assistance."
+}

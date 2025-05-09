@@ -1,0 +1,21 @@
+{
+  "INTERNAL_SERVER_ERROR": "There was an error on the server",
+  "UNEXPECTED_ERROR": "Unexpected Error, please try again.",
+  "COULD_NOT_SEND_OTP_CODE": "Failed to sent OTP, please make sure that the number is valid",
+  "INVALID_OTP_CODE": "The code you entered is invalid or already expired!",
+  "MERCHANT_EXISTS_AND_CANNOT_BE_ONBOARDED": "Merchant already exists and cannot be onboarded",
+  "COULD_NOT_VERIFY_OTP_CODE": "Failed to verify OTP code, please try again",
+  "OWNERS_OWNERSHIP_REQUIRED_PERCENTAGE_NOT_MEET": "In order to continue, you need to add owners until you reach at least a majority ownership",
+  "NO_TOKEN_RETURNED": "There was an issue validating the OTP, please try again",
+  "COULD_NOT_CREATE_LEAD_ALREADY_EXISTS": "Could not create, please contact CS",
+  "Bad Request": "There are issues with the information you provided, please check and try again",
+  "ADDRESS_NOT_VALID": "The address you entered is not valid, please check and try again",
+  "INVALID_PHONE_NUMBER": "The phone number you entered is not valid, please check and try again",
+  "INVALID_MCC_CODE": "The category or subcategory you selected is not valid, please check and try again",
+  "UNAUTHORIZED": "Your session has expired. Please log in again to continue",
+  "FORBIDDEN": "You do not have permission to access this resource",
+  "INVALID_ABA_NUMBER": "The routing number you entered is not valid, please check and try again",
+  "NUMBER_ALREADY_ASSOCIATED_TO_ANOTHER_LEAD": "The number you entered is already in use, please contact CS",
+  "ATTRIBUTION_LEAD_NOT_FOUND": "There was an issue with the data you provided, please contact CS",
+  "NUMBER_NOT_MATCHING_LEAD_CONTACT_DATA": "The number you entered does not match the url information provided, please check and try again"
+}

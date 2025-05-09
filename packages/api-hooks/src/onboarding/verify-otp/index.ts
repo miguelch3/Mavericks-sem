@@ -1,0 +1,1 @@
+export { useVerifyOTPMutation } from './hook';

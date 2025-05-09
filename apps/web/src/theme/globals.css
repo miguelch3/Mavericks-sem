@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ant-btn .underline-text span {
+  text-decoration: underline !important;
+}
+
+.get-started-form .ant-form-item {
+  margin-bottom: 0px !important;
+}
+
+.get-started-form .ant-input {
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important;
+}
+
+.get-started-form .ant-picker-input {
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important;
+}
+
+.get-started-form .ant-input-number {
+  padding-top: 0.3rem !important;
+  padding-bottom: 0.3rem !important;
+}
+
+.get-started-form .ant-select-selector {
+  font-size: 1rem !important;
+}
+
+.confetti {
+  z-index: 999 !important;
+}
+
+.ant-btn-lg {
+  height: 48px !important;
+  font-size: 18px !important;
+}
+
+.ant-descriptions-item-label {
+  padding-top: 4px !important;
+  padding-left: 8px !important;
+}
+
+.ant-descriptions-item-content {
+  padding-top: 4px !important;
+  padding-left: 8px !important;
+}
+
+.owners-card .ant-card-body {
+  padding: 15px !important;
+}
+
+.ant-form-item-explain {
+  margin-top: 4px !important;
+}
+
+.ant-select-selector {
+  cursor: pointer !important;
+}
+
+.ant-select-selection-search-input {
+  cursor: pointer !important;
+}
+
+.ant-otp .ant-input {
+  width: 45px;
+  height: 45px;
+}
+
+.review-card .ant-card-body {
+  padding: 15px !important;
+}
+
+.font-400 {
+  font-weight: 400 !important;
+}
+
+.title-grey {
+  color: #515151 !important;
+}
+
+.address-autocomplete {
+  height: 42px;
+}
+
+.sign-checkbox .ant-checkbox-inner {
+  border-color: rgba(55, 73, 117);
+  border-width: 2px;
+}

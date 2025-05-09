@@ -1,0 +1,36 @@
+name: Sync Branches
+
+on:
+  workflow_call:
+    inputs:
+      source_branch:
+        description: 'Source branch'
+        required: true
+        type: string
+      destination_branch:
+        description: 'Destination branch'
+        required: true
+        type: string
+
+jobs:
+  sync-branches:
+    name: Sync ${{ inputs.source_branch }} into ${{ inputs.destination_branch }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout destination branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.destination_branch }}
+
+      - name: Merge source into destination (Fast-forward only)
+        run: |
+          git fetch origin ${{ inputs.source_branch }}
+          if ! git merge --ff-only origin/${{ inputs.source_branch }}; then
+            echo "Fast-forward merge failed! Branches have diverged."
+            exit 1
+          fi
+
+      - name: Push updated destination branch
+        run: git push origin ${{ inputs.destination_branch }}

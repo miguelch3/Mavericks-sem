@@ -1,0 +1,239 @@
+{
+  "mobile-phone-label": "Mobile phone #",
+  "mobile-phone-placeholder": "(555) 555-5555",
+  "mobile-phone-required-message": "Mobile phone is required",
+  "mobile-phone-min-length-message": "Mobile phone must be at least 10 characters long",
+
+  "verify-otp-label": "Verification code",
+  "verify-otp-required-message": "Verification code is required",
+
+  "business-type-label": "Business type",
+  "business-type-required": "Business type is required",
+
+  "business-type-placeholder": "Choose business type",
+
+  "legal-business-name-label": "Legal business name",
+  "legal-business-name-placeholder": "Acme Inc.",
+  "legal-business-name-help": "Enter the business name exactly as recorded with the IRS, including capitalization and punctuation.",
+  "legal-business-name-required-message": "Legal business name is required",
+
+  "tin-type-label": "TIN Type",
+  "tin-type-placeholder": "Choose TIN Type",
+  "tin-type-required": "TIN Type is required",
+
+  "ein-label": "Employer Identification Number (EIN)",
+  "ein-placeholder": "XX-XXXXXXX",
+  "ein-required-message": "EIN is required",
+
+  "itin-label": "Individual Taxpayer Identification Number (ITIN)",
+  "itin-placeholder": "XXX-XX-XXXX",
+  "itin-required-message": "ITIN is required",
+
+  "ssn-label": "Social Security Number (SSN)",
+  "ssn-placeholder": "XXX-XX-XXXX",
+  "ssn-required-message": "SSN is required",
+
+  "doing-business-as-label": "Doing business as (if different than legal name)",
+  "doing-business-as-placeholder": "DBA name",
+
+  "business-established-date-label": "When was your business established?",
+  "business-established-date-placeholder": "MM / YYYY",
+  "business-established-date-required-message": "Business established date is required",
+
+  "business-address-label": "Legal Address",
+  "business-address-required-message": "Legal address is required",
+
+  "legal-phone-label": "Legal Phone #",
+  "legal-phone-required-message": "Legal phone is required",
+  "legal-phone-min-length-message": "Legal phone must be at least 8 characters long",
+
+  "dba-address-label": "DBA Address",
+  "dba-address-required-message": "DBA address is required",
+  "dba-address-different-from-legal-address": "My DBA address is different than my legal Address",
+
+  "business-phone-label": "Business Phone #",
+  "business-phone-required-message": "Business phone is required",
+  "business-phone-min-length-message": "Business phone must be at least 8 characters long",
+  "business-phone-different-from-legal-phone": "My business Phone # is different than my legal phone #",
+
+  "full-name-help": "Enter the name exactly as recorded with the IRS",
+
+  "first-name-label": "First name",
+  "first-name-placeholder": "John",
+  "first-name-required-message": "First name is required",
+
+  "middle-name-label": "Middle name",
+  "middle-name-placeholder": "Middle",
+
+  "last-name-label": "Last name",
+  "last-name-placeholder": "Smith",
+  "last-name-required-message": "Last name is required",
+
+  "job-title-label": "Job Title",
+  "job-title-placeholder": "Select Title",
+  "job-title-required-message": "Job title is required",
+
+  "authority-label": "Authority",
+  "authority-placeholder": "Select Authority",
+  "authority-required-message": "Authority is required",
+
+  "ownership-percentage-label": "Percentage of ownership",
+  "ownership-percentage-placeholder": "%",
+  "ownership-percentage-required-message": "Percentage of ownership is required",
+  "ownership-percentage-exceeded": "Percentage exceeded, must be less than {{percentage}}%",
+
+  "email-label": "Email Address",
+  "email-placeholder": "me@example.com",
+  "email-required-message": "Email address is required",
+  "email-not-valid-message": "Email address is not valid",
+
+  "date-of-birth-label": "Date of birth",
+  "date-of-birth-placeholder": "MM / DD / YYYY",
+  "date-of-birth-required-message": "Date of birth is required",
+
+  "home-address-label": "Home Address",
+  "home-address-required-message": "Home address is required",
+
+  "your-ssn-number-label": "Your SSN/ITIN Number",
+  "your-ssn-number-placeholder": "XXX-XX-XXXX",
+  "your-ssn-number-help": "We need this information to verify your identity",
+  "your-ssn-number-required-message": "Your SSN/ITIN number is required",
+
+  "describe-what-you-sell-label-1": "Describe what you sell and tell us when you typically charge your customers",
+  "describe-what-you-sell-label-2": "(i.e. during checkout or at the end of the month)",
+  "describe-what-you-sell-placeholder": "Describe in a few words",
+  "describe-what-you-sell-required-message": "Description is required",
+
+  "category-label": "Category",
+  "category-placeholder": "Select category",
+  "category-required-message": "Category is required",
+
+  "sub-category-label": "Subcategory",
+  "sub-category-placeholder": "Select subcategory",
+  "sub-category-required-message": "Subcategory is required",
+
+  "your-website-label": "Your website",
+  "your-website-placeholder": "www.acme.com",
+  "your-website-required-message": "Website is required",
+  "your-website-invalid-url": "Website is not a valid URL",
+
+  "your-facebook-handle-placeholder": "Your facebook handle",
+  "your-facebook-handle-label": "Facebook handle",
+
+  "your-instagram-handle-label": "Instagram handle",
+  "your-instagram-handle-placeholder": "Your instagram handle",
+
+  "your-tiktok-handle-label": "Tiktok handle",
+  "your-tiktok-handle-placeholder": "Your tiktok handle",
+
+  "money-placeholder": "$",
+  "percentage-placeholder": "%",
+
+  "average-monthly-sales-label": "Average monthly sales $ in credit card",
+  "average-monthly-sales-required-message": "Average monthly sales is required",
+
+  "average-ticket-value-label": "Average ticket value",
+  "average-ticket-value-required-message": "Average ticket value is required",
+
+  "highest-amount-to-date-label": "Highest ticket processed to date",
+  "highest-amount-to-date-required-message": "Highest ticket processed to date is required",
+
+  "percentage-of-sales-label": "Percentage of sales per retail, online, phone (must be total of 100%)",
+  "percentage-of-sales-required-message": "Percentage of sales is required",
+  "percentage-of-sales-must-be-100": "Sales percentages must be 100%",
+
+  "card-swipe-label": "Card swipe",
+  "card-swipe-required-message": "Card swipe percentage is required",
+
+  "moto-label": "MOTO",
+  "moto-required-message": "MOTO percentage is required",
+
+  "online-label": "Online",
+  "online-required-message": "Online percentage is required",
+
+  "keyed-label": "Keyed",
+  "keyed-required-message": "Keyed percentage is required",
+
+  "name-of-previous-processor-label": "Name of your previous processor?",
+  "name-of-previous-processor-required-message": "Name of previous processor is required",
+
+  "have-you-ever-been-accepted-label": "Have you ever been accepted by Visa / Mastercard / Discovery?",
+
+  "have-you-ever-been-terminated-label": "Has this business or its associated principal been terminated by Visa / Matsercard / Discovery?",
+
+  "bank-name-label": "Bank name",
+  "bank-name-required-message": "Bank name is required",
+
+  "bank-routing-number-label": "Bank Routing Number",
+  "bank-routing-number-placeholder": "Bank Routing Number",
+  "bank-routing-number-required-message": "Bank routing number is required",
+  "bank-routing-number-9-digits-message": "Bank routing number must be 9 digits",
+
+  "bank-account-number-label": "Bank Account Number",
+  "bank-account-number-placeholder": "Bank Account Number",
+  "bank-account-number-required-message": "Bank account number is required",
+
+  "re-enter-bank-account-number-label": "Re-enter Bank Account Number",
+  "re-enter-bank-account-number-not-match-message": "Bank account number does not match",
+
+  "account-holder-name-label": "Account Holder Name",
+  "account-holder-name-placeholder": "Account Holder Name",
+  "account-holder-name-required-message": "Account holder name is required",
+
+  "upload-voided-check-label": "Upload voided check",
+
+  "selection-required-message": "Selection is required",
+
+  "click-or-drag-to-upload": "Click or drag file to this area to upload",
+
+  "amex-volumes-same-as=above": "My amex volumes are the same as above",
+  "amex-average-monthly-sales": "Average monthly sales $ Amex cards",
+  "amex-average-ticket-value": "Average ticket value Amex cards",
+
+  "main-contact-person": "Main Contact Person",
+  "main-contact-person-help": "For electronic communications to the business, including delivery of the signed agreements accepting the account terms",
+
+  "contact-name-label": "Contact Name",
+  "contact-name-placeholder": "Full Name",
+  "contact-name-required-message": "Contact name is required",
+
+  "contact-email-label": "Contact Email Address",
+  "contact-email-placeholder": "Email Address",
+  "contact-email-required-message": "Contact email is required",
+
+  "contact-phone-label": "Contact Phone #",
+  "contact-phone-required-message": "Contact phone is required",
+
+  "done-continue-label": "Done, Continue",
+  "add-another-owner-label": "Add another owner",
+
+  "invalid-inputs-message": "Some of the inputs are invalid or incomplete. Please check the form and try again.",
+
+  "complete-agreement-before-proceeding": "Please complete the agreement before proceeding.",
+  "agreement-completed": "Agreement completed. You may now continue.",
+  "signing-experience-message": "For the best signing experience, we recommend using a desktop.",
+
+  "first-and-last-name-required-message": "Please enter both your first and last name",
+
+  "review-agreement": "Review Agreement",
+  "agreement-signed": "Agreement signed",
+
+  "tin-min-length-message": "Value must be 9 characters long",
+
+  "field-length-constraint": "{{field}} must be less than {{length}} characters",
+
+  "tin-not-valid": "Input is not valid",
+
+  "name-min-length-message": "Name must be at least {{min}} characters",
+  "name-max-length-message": "Name must be less than {{max}} characters",
+
+  "description-min-length-message": "Description must be at least {{min}} characters",
+  "description-max-length-message": "Description must be less than {{max}} characters",
+
+  "special-characters-allowed": "Only letters, numbers, space and ('&,.-) are allowed.",
+
+  "min-value": "Value must be greater than or equal to {{min}}",
+  "max-value": "Value must be less than or equal to {{max}}",
+
+  "age-must-be-at-least-18-years-old": "Age must be at least 18 years old"
+}

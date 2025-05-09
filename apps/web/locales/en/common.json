@@ -1,0 +1,118 @@
+{
+  "get-started": "Get Started",
+
+  "help": "Help",
+  "terms": "Terms",
+  "privacy-policy": "Privacy Policy",
+
+  "continue": "Continue",
+  "go-back": "Go Back",
+
+  "and": "and",
+  "the": "the",
+  "associated": "associated",
+
+  "get-started-terms-message-1": "Review the ",
+  "get-started-terms-message-2": ", which, together, form the Merchant Agreement. These links also direct you to other important documents and disclosures applicable to your account.",
+
+  "application-and-agreements": "Merchant Application",
+  "terms-and-conditions": "Terms and Conditions",
+
+  "verify-phone-number-message-1": "We will now collect the necessary information to enable you to start processing payments. This information is collected to verify your identity, keep your account safe, and help meet legal and regulatory requirements. Please refer to our",
+  "verify-phone-number-message-2": "for more details.",
+
+  "owners": "Owners",
+  "ownership": "Ownership",
+
+  "yes": "Yes",
+  "no": "No",
+
+  "more-info": "More Info",
+
+  "payment-processing": "Payment Processing",
+  "taluspay-app": "TalusPay App",
+  "hardware": "Hardware",
+
+  "card-present": "Card Present",
+  "non-card-present": "Non-Card Present",
+
+  "monthly-service-fee": "Monthly Service Fee",
+
+  "terminal-model": "Terminal Model",
+
+  "agreement": "Agreement",
+
+  "couldnt-verify-address": "We couldn't verify your address",
+  "couldnt-verify-address-subtitle": "We need your address to be fully verified",
+
+  "use-verified-address": "Use Verified Address",
+  "original-address": "Original Address",
+  "verified-address": "Verified Address",
+
+  "address-line-1": "Address Line 1",
+  "address-line-2": "Address Line 2",
+  "city": "City",
+  "state": "State",
+  "zip": "Zip",
+
+  "email": "Email",
+  "dob": "DOB",
+
+  "other-info-provided": "Other info provided",
+  "routing-number": "Routing Number",
+  "account-number": "Account Number",
+
+  "ssn": "SSN",
+  "ein": "EIN",
+  "address": "Address",
+  "phone": "Phone",
+  "sales-info": "Sales Info",
+
+  "merchant-application": "Merchant Application",
+  "personal-guarantee": "Personal Guarantee",
+  "ach-terms": "ACH Terms",
+
+  "i-agree": "I Agree",
+  "i-acknowledge": "I Acknowledge",
+  "i-confirm": "I Confirm",
+
+  "not-applicable": "N/A",
+  "included-in-your-monthly-service-fee": "Included in your monthly service fee",
+
+  "download-file": "Download File",
+
+  "see-e-sign-disclosure": "See E-Sign Disclosure",
+  "personal-guaranty": "Personal Guaranty",
+
+  "month": "month",
+
+  "present-transactions": "For card present transactions",
+  "not-present-transactions": "For card not present transactions",
+  "monthly-subscription-fee": "monthly subscription fee",
+
+  "what-does-it-mean": "What does it mean?",
+
+  "qualified": "Qualified",
+  "mid-qualified": "Mid-Qualified",
+  "non-qualified": "Non-Qualified",
+
+  "credit-cards": "Credit Cards",
+  "debit-cards": "Debit Cards",
+
+  "talus-pay-advantage": "Talus Pay Advantage",
+  "you-pay": "You Pay",
+  "customer-pays": "Customer Pays",
+  "for-all-credit-card-transactions": "For All Credit Card Transactions",
+
+  "for-credit-card-transactions": "For credit card transactions",
+  "for-debit-card-transactions": "For debit card transactions",
+
+  "per-month": "Per Month",
+
+  "qty": "Qty",
+  "price": "Price",
+
+  "clover-add-ons": "Clover Add-Ons",
+  "gateway-virtual-terminals": "Gateway / Virtual Terminals",
+  "service-fees": "Service Fees"
+}

@@ -1,0 +1,47 @@
+name: MAVERICKS CD (Staging)
+
+on:
+  push:
+    branches:
+      - develop
+  workflow_dispatch:
+
+jobs:
+  code-checks:
+    name: Run code quality tools
+    uses: ./.github/workflows/_code_checks.yaml
+
+  release:
+    name: Create Staging Release
+    needs: [code-checks]
+    uses: ./.github/workflows/_sem_release.yaml
+    permissions:
+      contents: write
+      issues: write
+      pull-requests: write
+    with:
+      environment: Staging
+      git_user_name: JoboxTech
+      git_user_email: tech@jobox.ai
+    secrets:
+      semantic_release_token: ${{ secrets.SEMANTIC_RELEASE_TOKEN }}
+
+  demo-mirror:
+    name: Mirror develop into demo
+    needs: [release]
+    uses: ./.github/workflows/_force_sync_branches.yaml
+    with:
+      source_branch: develop
+      destination_branch: demo
+      git_user_name: JoboxTech
+      git_user_email: tech@jobox.ai
+
+  demo-sandbox:
+    name: Mirror develop into sandbox
+    needs: [release]
+    uses: ./.github/workflows/_force_sync_branches.yaml
+    with:
+      source_branch: develop
+      destination_branch: sandbox
+      git_user_name: JoboxTech
+      git_user_email: tech@jobox.ai

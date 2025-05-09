@@ -1,0 +1,1 @@
+export { useSetBankAccountMutation } from './hook';

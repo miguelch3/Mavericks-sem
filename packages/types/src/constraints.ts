@@ -1,0 +1,34 @@
+export const MAX_CITY_LENGTH = 24;
+export const MAX_ZIP_CODE_LENGTH = 10;
+export const MAX_EMAIL_LENGTH = 60;
+
+export const MIN_NAME_LENGTH = 2;
+export const MAX_NAME_LENGTH = 24;
+
+export const MAX_CONTACT_NAME_LENGTH = 48;
+export const MAX_WEBSITE_LENGTH = 60;
+
+export const MIN_BUSINESS_NAME_LENGTH = 2;
+export const MAX_BUSINESS_NAME_LENGTH = 72;
+
+export const MIN_PRODUCT_DESCRIPTION_LENGTH = 5;
+export const MAX_PRODUCT_DESCRIPTION_LENGTH = 72;
+
+export const MIN_MONTHLY_CREDIT_CARD_SALES = 1;
+export const MAX_MONTHLY_CREDIT_CARD_SALES = 640000;
+
+export const MIN_MONTHLY_TICKET_VALUE = 1;
+export const MAX_MONTHLY_TICKET_VALUE = 99999;
+
+export const MIN_HIGHEST_AMOUNT_VALUE = 1;
+export const MAX_HIGHEST_AMOUNT_VALUE = 999999;
+
+export const MIN_AMEX_MONTHLY_VOLUME = 1;
+export const MAX_AMEX_MONTHLY_VOLUME = 830000;
+
+export const MIN_PHONE_LENGTH_WITH_CHARS = 10;
+export const MAX_PHONE_LENGTH_WITH_CHARS = 10;
+
+export const MIN_REQUIRED_OWNERSHIP_PERCENTAGE = 50;
+
+export const MAX_HARDWARE_ITEMS = 1;

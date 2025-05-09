@@ -1,0 +1,30 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "globalDependencies": ["**/.env.*local"],
+  "tasks": {
+    "build": {
+      "dependsOn": ["^build"],
+      "env": ["NODE_ENV"],
+      "outputs": [".next/**", "!.next/cache/**"]
+    },
+    "dev": {
+      "cache": false,
+      "persistent": true
+    },
+    "lint": {
+      "cache": true
+    },
+    "type-check": {
+      "cache": true
+    },
+    "test": {
+      "inputs": [
+        "jest.config.ts",
+        "src/**/*.tsx",
+        "src/**/*.ts",
+        "tests/**/*.tsx",
+        "tests/**/*.ts"
+      ]
+    }
+  }
+}

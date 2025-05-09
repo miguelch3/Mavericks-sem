@@ -1,0 +1,1 @@
+export { useGetLeadQuery } from './hook';

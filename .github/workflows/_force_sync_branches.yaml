@@ -1,0 +1,36 @@
+name: Force Sync Branches
+
+on:
+  workflow_call:
+    inputs:
+      source_branch:
+        required: true
+        type: string
+      destination_branch:
+        required: true
+        type: string
+      git_user_name:
+        required: true
+        type: string
+      git_user_email:
+        required: true
+        type: string
+
+jobs:
+  force_sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Configure Git user
+        run: |
+          git config user.name "${{ inputs.git_user_name }}"
+          git config user.email "${{ inputs.git_user_email }}"
+
+      - name: Force sync branches
+        run: |
+          git checkout ${{ inputs.source_branch }}
+          git push origin ${{ inputs.source_branch }}:${{ inputs.destination_branch }} --force

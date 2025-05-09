@@ -1,0 +1,39 @@
+{
+  "name": "mavericks",
+  "version": "v0.1.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*",
+    "configs/*"
+  ],
+  "scripts": {
+    "build": "turbo build",
+    "cypress:open": "yarn workspace web cypress:open",
+    "cypress:run": "yarn workspace web cypress:run",
+    "dev": "turbo dev",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "lint": "turbo lint",
+    "prepare": "husky",
+    "test": "turbo run test",
+    "type-check": "turbo run type-check"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.8.0",
+    "@commitlint/config-conventional": "^19.8.0",
+    "@ls-lint/ls-lint": "^2.3.0",
+    "@mavericks/eslint-config": "*",
+    "@mavericks/typescript-config": "*",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.2.2",
+    "prettier": "^3.5.3",
+    "rimraf": "^6.0.1",
+    "syncpack": "^12.3.0",
+    "tspath": "^2.6.8",
+    "turbo": "^2.4.4"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "packageManager": "yarn@1.22.22"
+}

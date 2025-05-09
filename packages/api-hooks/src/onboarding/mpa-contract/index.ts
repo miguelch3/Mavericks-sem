@@ -1,0 +1,1 @@
+export { useGenerateMpaContractMutation } from './hook';
