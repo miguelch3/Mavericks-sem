@@ -10,6 +10,7 @@ type Props = {
   owner: BusinessOwner;
 };
 
+// COmment to tests
 export const ManagementOverviewCard: FC<Props> = ({ owner }) => {
   const { t } = useTranslation('common');
   const primaryColor = useRegisterBusinessStore((s) => s.primaryColor);
