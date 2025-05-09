@@ -22,11 +22,6 @@ on:
 
 env:
   HUSKY: 0
-  GITHUB_TOKEN: ${{ secrets.semantic_release_token }}
-  GIT_AUTHOR_NAME: ${{ inputs.git_user_name }}
-  GIT_AUTHOR_EMAIL: ${{ inputs.git_user_email }}
-  GIT_COMMITTER_NAME: ${{ inputs.git_user_name }}
-  GIT_COMMITTER_EMAIL: ${{ inputs.git_user_email }}
 
 jobs:
   release:
