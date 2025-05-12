@@ -35,7 +35,7 @@
     "@mavericks/eslint-config": "*",
     "@mavericks/jest-config": "*",
     "@mavericks/typescript-config": "*",
-    "@next/eslint-plugin-next": "^14.1.1",
+    "@next/eslint-plugin-next": "^15.3.2",
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.5.0",
     "@testing-library/react": "^16.0.1",
