@@ -14,7 +14,7 @@
   "devDependencies": {
     "@mavericks/eslint-config": "*",
     "@mavericks/typescript-config": "*",
-    "@tanstack/eslint-plugin-query": "^5.68.0",
+    "@tanstack/eslint-plugin-query": "^5.74.7",
     "eslint": "^8.57.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-airbnb-typescript": "^18.0.0",
